@@ -1,4 +1,4 @@
-package com.summer.train;
+package com.summer.member.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,5 +7,5 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @GetMapping("/hello")
-    public String hello() { return "hello11qwe1SDF32123"; }
+    public String hello() {return "/hello";}
 }
