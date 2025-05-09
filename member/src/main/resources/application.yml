@@ -1,7 +1,9 @@
-spring:
-  application:
-    name: member
 server:
   port: 8001
   servlet:
     context-path: /member
+spring:
+  application:
+    name: member
+mybatis:
+  mapper-locations: classpath:/mapper/**/*.xml

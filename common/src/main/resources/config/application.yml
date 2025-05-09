@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://8.153.86.61/train_member?characterEncoding=UTF8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    username: train_member
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
